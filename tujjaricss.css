@@ -1,0 +1,527 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F1F1F1 !important;
+}
+/*Navbar*/
+/*Buttoni is to make all text come in one line*/
+.buttoni{
+  clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-item{
+  margin-left: 30px;
+}
+.navbar-custom.top-nav-collapse {
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff !important;
+
+  }
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link {
+    color: #393939;
+    opacity: 1;
+  }
+  
+.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
+.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+    color: #00bfd8;
+    background-color: white !important;
+  }
+.far{
+  font-size: 25px;
+  color: black;
+}
+.im{
+    height: 100%;
+  background-image: url('images/metro.png');
+  position:relative;
+}
+.redbox{
+  background: rgba(120, 120, 120, 0.7);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/*Navbar*/
+.navbar-custom.top-nav-collapse {
+    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff !important;
+
+  }
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link {
+    color: #393939;
+    opacity: 1;
+  }
+  
+.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
+.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+    color: #00bfd8;
+    background-color: white !important;
+  }
+
+/*Font for the line 'Search For Your Next Car' START*/
+.font1{
+  font-family: 'Montserrat', sans-serif;
+}
+/*Font for the line 'Search For Your Next Car' END*/
+
+/*Border for the search box START*/
+.borders{
+  border-style: solid !important;
+  border-width: 6px !important;
+  border-color: black;
+  padding: 50px;
+  border-radius: 20px;
+}
+/*Border for the search box END*/
+
+/*The background image code (kind of(not just the background image code but the section too)) START*/
+.section1{
+  padding: 70px;
+  height: 430px;
+  background-image: url('images/bg-img.jpg');
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+/*The background image code (kind of(not just the background image code but the section too)) END*/
+
+/*To make the search form responsive when width of the browser is shortened START*/
+@media (max-width: 880px){
+  .borders{
+    padding: 0px;
+  }
+  .redbox{
+
+  }
+  .section1{
+    padding: 70px;
+    height: 550px;
+    background-image: url('images/bg-img.jpg');
+    background-size: 100% 550px !important;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+}
+/*To make the search form responsive when width of the browser is shortened END*/
+
+/*Breadcrumb section Start*/
+.breadcrumb {
+  padding: 8px 15px !important;
+  margin-bottom: 20px !important;
+  background-color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.breadcrumb >li + li:before {
+  content: " >\00a0";
+  color: #cccccc !important;
+}
+
+@media (max-width: 991px) {
+  .breadcrumb {
+    padding: 8px 0 !important;
+    text-align: center !important; 
+  }
+}
+/*Breadcrumb section End*/
+
+.box{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  padding-right: 200px;
+  padding-left: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Box for the car products START*/
+.box1{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  padding: 10px 0px 0px 0px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+/*Box for the car products END*/
+
+/*Chuck this code START*/
+.fromto{
+  display: table-cell;
+}
+/*Chuck this code END*/
+
+/*This is for making the font a gradient of red and orange START*/
+.stylishtext{
+  background: rgb(255,0,0); background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,47,1,1) 35%, rgba(254,93,0,1) 58%, rgba(255,98,0,1) 100%, rgba(215,49,203,1) 100%, rgba(208,108,235,1) 100%, rgba(11,11,11,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 20px;
+}
+/*This is for making the font a gradient of red and orange END*/
+
+/*This is for the some buttons used in car.php and viewdetails.php, basically it looks cool START */
+.btn-dark{
+  background-color: white !important;
+  color: black !important;
+  outline-color: black !important;
+}
+
+.btn-dark:hover{
+  background-color: black !important;
+  color: white !important;
+  outline-color: black !important;
+}
+
+.btn-blue{
+  background-color: white !important;
+  color: blue !important;
+}
+
+.btn-blue:hover{
+  background-color: blue !important;
+  color: white !important;
+  outline-color: blue !important;
+}
+
+.btn-green{
+  background-color: white !important;
+  color: green !important;
+}
+
+.btn-green:hover{
+  background-color: green !important;
+  color: white !important;
+  outline-color: green !important;
+}
+/*This is for the some buttons used in car.php and viewdetails.php, basically it looks cool END */
+
+
+/*This is for the carousel ued in viewdetails.php START */
+.carousel-inner-detail{
+  width: 943px !important;
+  height: 629px !important;
+}
+
+.carousel-item-detail{
+  width: 943px !important;
+  height: 629px !important;
+}
+/*This is for the carousel used in viewdetails.php END */
+
+/*and dude please also do jquery code to make this carousel responsive. That 'max-width: 880px' blah blah code */
+
+
+/*The white box behind contact form START*/
+.contact-box{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  padding-right: 100px !important;
+  padding-left: 100px !important;
+  border-radius: 10px;
+  margin-top: 90px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+/*The white box behind contact form END*/
+
+/*The input boxes in contact form START*/
+.text-box{
+  background-color: transparent;
+  outline: none !important;
+  border: none !important
+  width: 571px !important;
+  height: 62px !important;
+  padding-right: 200px;
+  padding-left: 10px;
+  border-radius: 20px !important;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+/*The input boxes in contact form END*/
+
+/*The background map image START*/
+.bg-contact{
+  background:url('images/map.jpg');
+  position: relative;
+}
+/*The background map image END*/
+
+/*To make the contact form responsive START*/
+@media (max-width: 800px){
+  .contact-box{
+    width: 400px !important;
+    height: 650px;
+  }
+}
+/*To make the contact form responsive END*/
+
+/*Login box CSS START*/
+.login-box{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  border-radius: 10px;
+  padding-right: 200px;
+  padding-left: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+/*Login box CSS END*/
+
+/*Background image for login START*/
+.bg-login{
+  background: url('images/desert.jpg');
+}
+/*Background image for login END*/
+
+/*Sidebar box CSS START*/
+.sidebarbox{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+/*Sidebar box CSS END*/
+
+/*Code to make the blue border that appear on hover/click on input, select, textarea to dissapear START*/
+#sidebar textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+select:active,
+select:focus,
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    box-shadow: none !important;
+}
+/*Code to make the blue border that appear on hover/click on input, select, textarea to dissapear END*/
+
+
+.packagebox{
+  background-color: #fff;
+  border: solid 1px #e6e6e6;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+  border-radius: 10px;
+  margin-top: 90px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Best Value Label */
+.packagebox .label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10.625rem;
+    height: 10.625rem;
+    overflow: hidden;
+}
+/***********************/
+/*     10. Pricing     */
+/***********************/
+
+.cards h2 {
+  margin-bottom: 1rem;
+}
+.card1 {
+  display: block;
+  max-width: 19.5rem;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  border: 1px solid blue !important;
+  border-radius: 0.5rem;
+  vertical-align: top;
+}
+.card2 {
+  display: block;
+  max-width: 19.5rem;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  border: 1px solid #228B22 !important;
+  border-radius: 0.5rem;
+  vertical-align: top;
+}
+
+.card3 {
+  display: block;
+  max-width: 19.5rem;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  margin-left: auto;
+  border: 1px solid red !important;
+  border-radius: 0.5rem;
+  vertical-align: top;
+}
+
+.card .card-body {
+  padding: 2.5rem 2.75rem 1.875rem 2.5rem;
+}
+
+.card .card-title {
+  margin-bottom: 0.625rem;
+  color: #393939;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  text-align: center;
+}
+
+.card .card-subtitle {
+  margin-bottom: 1.75rem;
+}
+
+.card .cell-divide-hr {
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+  background-color: #c4d8dc;
+}
+
+.card .price {
+  padding-top: 0.875rem;
+  padding-bottom: 1.5rem;
+}
+
+.card .value {
+  color: black;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.card .currency {
+  margin-right: 0.375rem;
+  color: black;
+  font-size: 1.5rem;
+  vertical-align: 56%;
+}
+
+.card .frequency {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.card .list-unstyled {
+  margin-top: 1.875rem;
+  margin-bottom: 1.625rem;
+  text-align: left;
+}
+
+.card .list-unstyled.li-space-lg li {
+  margin-bottom: 0.5rem;
+}
+
+.card .list-unstyled .fas {
+  color: black;
+  line-height: 1.375rem;
+}
+
+.card .list-unstyled .fas.fa-times {
+  margin-left: 0.1875rem;
+  margin-right: 0.125rem;
+  color: #777b7e;
+}
+
+.card .list-unstyled .media-body {
+  margin-left: 0.625rem;
+}
+
+.card .button-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: -1.25rem;
+  left: 0;
+  text-align: center;
+}
+
+.card .btn-solid-reg:hover {
+  background-color: #fff;
+}
+
+/* Best Value Label */
+.card .label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10.625rem;
+    height: 10.625rem;
+    overflow: hidden;
+}
+
+.card .label .best-value {
+    position: relative;
+    width: 13.75rem;
+    padding: 0.3125rem 0 0.3125rem 6.125rem;
+    background: red;
+    color: #fff;
+    -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
+    -ms-transform: rotate(45deg) translate3d(0, 0, 0);
+    transform: rotate(45deg) translate3d(0, 0, 0);
+}
+/* end of best value label */
+
+
+.myaccbtn{
+    margin-right: 2rem;
+  }
+.loginbtn
+{
+  margin-right: 1rem;
+}
+@media (max-width: 426px){
+  .chatdropdown{
+    margin-left: 0px !important;
+    width: 40px !important;
+  }
+  .sellyourcarbtn{
+    width: 115px !important;
+  }
+  .loginbtn{
+    margin-right: 0.63rem;
+  }
+  .myaccbtn{
+    margin-left: 70px !important;
+    margin-right: 2rem;
+    width: 40px !important;
+  }
+
+}
+.fa-facebook-square:hover,.fa-instagram:hover,.fa-linkedin:hover,.fa-twitter:hover{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,47,1,1) 35%, rgba(254,93,0,1) 58%, rgba(255,98,0,1) 100%, rgba(215,49,203,1) 100%, rgba(208,108,235,1) 100%, rgba(11,11,11,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+    transform: rotate(30deg);
+}
+.fa-instagram{
+    font-size: 35px !important;
+    }
+    .fa-facebook-square{
+        font-size: 35px !important;
+    }
+    .fa-linkedin{
+        font-size: 35px !important
+    }
+    .fa-twitter{
+       font-size: 35px !important;
+    }
+
+
+
+    @media (min-width: 1200px){
+.container {
+    max-width: 1340px !important;
+}
+ 
