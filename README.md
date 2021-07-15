@@ -3,7 +3,14 @@ This is a website that will be constantly updated to improvise every details, an
 
 Video:- https://youtu.be/0fy981_cPhE
 
-Made using the following:-
+# How to use:-
+1. Open XAMPP, and start Apache, and MySQL
+2. Go to your localhost/phpmyadmin/ and create a database named 'tujjari'
+3. Click on SQL from the top navbar and enter the sql code to create all the necessary tables (Code can be found in mysql/code.sql)
+4. Click Enter
+5. And now just enter localhost/*File location* and it should work!
+
+# Made using the following:-
 1. HTML
 2. CSS
 3. PHP
@@ -23,4 +30,5 @@ You can do the following in this website:-
 9. User can edit his/her account details
 10. User can view the Advertiser's location details, phone number, etc. 
 
-NOTE:- Name the database 'tujjari' and import the mysql code inside tujjari folder in your localhost/phpmyadmin to create all the tables. 
+# NOTE
+Name the database 'tujjari' and import the mysql code inside tujjari folder in your localhost/phpmyadmin to create all the tables. 
